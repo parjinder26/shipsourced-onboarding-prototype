@@ -18,7 +18,7 @@ import localFont from 'next/font/local';
 
 const sans = localFont({ src: '../fonts/PlusJakartaSansVariable.woff2', weight: '200 800', display: 'swap' });
 
-const WA_LINK = `https://wa.me/15592038158?text=${encodeURIComponent("Hi ShipSourced — I'd like a quote on my product.")}`;
+const WA_LINK = `https://wa.me/${process.env.NEXT_PUBLIC_WA_NUMBER || "15592038158"}?text=${encodeURIComponent("Hi ShipSourced — I'd like a quote on my product.")}`;
 
 type Service = 'dropship' | 'us3pl';
 

@@ -28,7 +28,7 @@ const sans = localFont({
    WhatsApp — (559) 203-8158 (the team's message), (559) 203-8185
    (ShippingCalculator.tsx, same digits transposed) and (559) 293-9121 (the
    onboarding crons). Confirm before this page goes anywhere public. */
-const WA_NUMBER = '15592038158';
+const WA_NUMBER = process.env.NEXT_PUBLIC_WA_NUMBER || '15592038158'; // set NEXT_PUBLIC_WA_NUMBER to a study phone for testing
 const WA_TEXT = 'Hi ShipSourced — I\'d like a quote on my product.';
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_TEXT)}`;
 
