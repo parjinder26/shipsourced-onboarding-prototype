@@ -54,8 +54,8 @@ export default function SignupPage() {
           <div className="next">
             <h3>Here&rsquo;s what happens next</h3>
             <ol>
-              <li><b>Choose a plan</b> — see every fee before you pay anything.</li>
-              <li><b>Connect your store</b> — Shopify, WooCommerce or TikTok Shop.</li>
+              <li><b>Choose a plan</b> — see every fee up front. No card needed yet.</li>
+              <li><b>Connect your store</b> — Shopify, WooCommerce or TikTok Shop. Free: you don&rsquo;t pay anything before connecting your store.</li>
               <li><b>Send us your stock</b> — {service === 'dropship' ? 'or let us source it for you in China.' : 'to our warehouse in Clovis, CA.'}</li>
               <li><b>Go live</b> — new orders ship automatically.</li>
             </ol>
